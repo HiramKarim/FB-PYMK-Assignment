@@ -34,14 +34,6 @@ class MainVM {
     
     private func calculateSocialDistance(friendsSuggestions:[FriendsModel]) {
         
-        for user in friendsSuggestions {
-            
-            if currentUser.friends.contains(user.id) {
-                socialDistance[user.id] = [1]
-            }
-            
-        }
-        
     }
     
     
